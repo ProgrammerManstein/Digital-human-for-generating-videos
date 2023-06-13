@@ -3,7 +3,7 @@ Digital human for generating videos using 4 modules.
 1. [Vits](https://github.com/ProgrammerManstein/VITS) for tts;  
 2. [3d face recon](https://github.com/ProgrammerManstein/Deep3DFaceRecon_pytorch) for 3D Facial Reconstruction;  
 3. Using the outputs of 1.(audio/.wav) and 2.(face module/.mat) for training [FACIAL](https://github.com/ProgrammerManstein/FACIAL), which will synthetize headposes and expressions for digital human;  
-4. [Wav2lip](https://github.com/ajay-sainy/Wav2Lip-GFPGAN) for lip movement.  
+4. [Wav2lip](https://github.com/ajay-sainy/Wav2Lip-GFPGAN) for lip movement. Making the output video of 3. as the input of Wav2lip.
 # Environmental Configuration
 
 ## System Environment Description
